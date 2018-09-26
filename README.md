@@ -2,14 +2,15 @@
 # Working with Lists
 
 ## Introduction
-So far, we have worked with individual pieces of data like the string 'hello'. Then with variables we saw how to give this data a name. Now in this lesson, we'll see how we can group data together with lists.
+So far, we have worked with individual pieces of data like the string 'hello'. In this lesson, we'll see how we can group pieces of data together using lists.
 
 ## Objectives
+You will be able to:
 * Understand and use Lists
 
-## What Are Lists
+## What Are Lists?
 
-A list is our first form of a collection. A collection is just a way of grouping data together and lists certainly accomplish this. For example, let's consider the top cities for travel according to the magazine Travel and Leisure. Here is how we usually see a list of travel locations in a document or on a website.
+A list is our first form of a collection. A collection is just a way of grouping multiple pieces of data together. For example, let's consider the top cities for travel according to the magazine Travel and Leisure. Here is how we usually see a list of travel locations in a document or on a website.
 
 #### Travel Locations
 1. Solta
@@ -76,7 +77,7 @@ top_travel_cities
 top_travel_cities[0]
 ```
 
-In the above line we are referencing a list and then using the brackets to access a specific element of our list, the first element.  We access elements in a list with the `index`, and there is a separate index for each element in the list.  It begins at the number zero, increases for every element thereafter.
+In the above line we are referencing a list and then using the brackets to access a specific element of our list, the first element.  We access elements in a list with the `index`, and there is a separate index for each element in the list.  It begins at the number **zero** (not the number 1 as you might expect). Like many modern programming languages , Python uses a "zero-indexed" numbering scheme for collections like lists. The value then increases by 1 for every element thereafter.
 
 So to access the second element we write `top_travel_cities[1]`, and the third element is `top_travel_cities[2]`.
 
