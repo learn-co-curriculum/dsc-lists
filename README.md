@@ -57,7 +57,7 @@ top_travel_cities
 countries_of_top_cities = ['Croatia', 'USA', 'Argentina', 'Mexico', 'USA', 'Morocco', 'New Mexico', 'Finland', 'Argentina', 'Italy', 'Canada', 'South Korea']
 ```
 
-### Accessing Elements of Lists
+## Accessing Elements of Lists
 
 Now our `top_travel_cities` list contains multiple elements, and just like we are used to list elements having a rank or number associated with them...
 
@@ -125,7 +125,7 @@ top_travel_cities
 type(top_travel_cities)
 ```
 
-### Accessing Multiple Elements
+## Accessing Multiple Elements
 
 Now imagine that we don't want to access just one element of a list, but multiple elements at once.  Python allows us to do that as well:
 
@@ -174,7 +174,7 @@ top_two
 
 Now we have another variable called `top_two` that points to an array which contains an array of elements equal to the first two elements of `top_travel_cities`.
 
-### Changing elements with destructive methods
+## Changing elements with destructive methods
 
 Now that we can read and select certain elements from lists, let's work on changing these lists. To add a new element to a list, we can use the `append` method.
 
@@ -236,7 +236,7 @@ With that, our list is back to the way we like it.
 top_travel_cities
 ```
 
-### Finding Unique elements and length of lists
+## Finding Unique elements and length of lists
 
 If we are not sure whether there are repeated elements, we can use Python to get a unique list.
 
@@ -314,6 +314,6 @@ top_travel_cities
 
 > **Note:** *For most purposes, Python developers prefer to work with `lists` as opposed to sets, as `lists` are generally easier to manipulate, as you will see in future lessons.*
 
-### Summary
+## Summary
 
 In this section we saw how to associate data together in a collection, called a list.  A list is similar to a list in the real world - it implies the data has some connection, and that it has an order to it.  We initialize a list with the brackets, `[]`, and separate each element by a comma.  To access elements from a list, we use the bracket accessor followed by the index of the element we want to retrieve, and our indices begin at zero and increase from there. To add a new element to the end of the list we use the `append` method, and to remove an element from the end of a list we use `pop`. We can change elements anywhere between by first accessing the elements and then reassigning them.
