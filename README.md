@@ -6,7 +6,9 @@ So far, we have worked with individual pieces of data like the string 'hello'. I
 
 ## Objectives
 You will be able to:
-* Understand and use Lists
+* Use indexing to access elements in a list
+* Apply list methods to make changes to a list
+* Change elements of a list
 
 ## What Are Lists?
 
